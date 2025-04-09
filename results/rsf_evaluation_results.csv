@@ -1,0 +1,3 @@
+model,concordance_index,num_test_samples
+Random Survival Forest,0.7415,36
+Cox Proportional Hazards,0.7014,36
