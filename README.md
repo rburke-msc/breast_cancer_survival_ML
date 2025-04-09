@@ -27,27 +27,19 @@ This project applies survival analysis and machine learning techniques to predic
 
 ## Project Structure
 
-breast_cancer_survival_project/ ├── data/ │ ├── raw/ # Raw input data │ └── processed/ # Cleaned & preprocessed data │ ├── scripts/ │ ├── data_preprocessing.py # Data loading and preprocessing functions │ ├── exploratory_analysis.py # Kaplan-Meier plots and visualizations │ ├── survival_models.py # Model training (RSF and Cox PH) │ └── evaluate_models.py # Evaluation + performance summary │ ├── figures/ # Auto-generated EDA plots ├── results/ # Concordance index CSVs ├── notebooks/ # (Optional) Interactive Jupyter notebooks └── README.md # Project overview
-
-
-Structure is as follows:
-
 breast_cancer_survival_project/
 ├── data/
-│   ├── raw/
-│   │   └── breast_cancer_data_raw.csv
-│   └── processed/
-│       └── breast_cancer_data_processed.csv
+│   ├── breast_cancer_data_raw.csv
 ├── scripts/
-│   ├── data_preprocessing.py
-│   ├── exploratory_analysis.py
-│   ├── survival_models.py
-│   └── evaluate_models.py
+│   ├── a_exploratory_analysis.py
+│   ├── b_data_preprocessing
+│   ├── c_survival_models.py
+│   └── d_evaluate_models.py
 ├── notebooks/
-│   └── survival_analysis_pipeline.ipynb
+│   └── exploratory_data_analysis.ipynb
 ├── figures/
-│   └── (your images here)
+│   └── figures1-7
 ├── results/
-│   └── survival_predictions.csv
+│   └── rsf_evaluation_results.csv
 └── README.md
 
