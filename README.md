@@ -27,22 +27,6 @@ This project applies survival analysis and machine learning techniques to predic
 
 ## Project Structure
 
-breast_cancer_survival_project/
-├── data/
-│   ├── breast_cancer_data_raw.csv
-├── scripts/
-│   ├── a_exploratory_analysis.py
-│   ├── b_data_preprocessing
-│   ├── c_survival_models.py
-│   └── d_evaluate_models.py
-├── notebooks/
-│   └── exploratory_data_analysis.ipynb
-├── figures/
-│   └── figures1-7
-├── results/
-│   └── rsf_evaluation_results.csv
-└── README.md
-
 ```
 breast_cancer_survival_project/
 ├── data/
